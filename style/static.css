@@ -4,24 +4,23 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   }
-  
-  h1, h2{
-    -webkit-text-stroke-width: 0.7px;
-    -webkit-text-stroke-color: #000;
-  }
-  
-  .passos p{
-    text-align: center;
-  }
-  h4{
-    font-weight: bold;
-  }
-
+  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   #org-passos{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 40pt;
+  }
+
+  .passos{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .passos p{
+    text-align: center;
   }
 
   @media (max-width: 1024px) {
@@ -37,26 +36,69 @@
   }
   
   @media (max-width: 886px) {
-    #org-passos {
+    #org-passos{
       display: flex;
-      margin: 10%;
-      font-size: 1.4rem;
-      padding: 10px;
+      width: 100%;
+      margin: 0px 0px 50px 0px ;
     }
-  }
-  
-  @media (max-width: 425px) {
+
     #org-passos .glyphicon {
       margin: 0;
     }
+
+    #org-passos h4{
+      text-align: center;
+      margin: 1%;
+    }
+  }
+  @media (max-width: 750px) {
+    #org-passos{
+      display: flex;
+      width: 100%;
+      margin: 0px 0px 70px 0px ;
+    }
+
+    #org-passos .glyphicon {
+      margin: 0;
+    }
+
+    #org-passos h4{
+      text-align: center;
+      margin: 1%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #org-passos{
+      display: inline;
+      width: 100%;
+   
+    }
+    .passos{
+      width: 100%;
+      padding: 5%;
+    }
+    #org-passos .glyphicon {
+      margin: 0;
+    }
+
+    #org-passos h4{
+      text-align: center;
+      margin: 1%;
+    }
   }
   
   
-  .passos{
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  
+  /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  h1, h2{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #000;
+  }
+  
+  h4{
+    font-weight: bold;
   }
 
   .row {

@@ -259,3 +259,23 @@
     }
 }
  
+.login-button{
+  width: 100%;
+  margin-top: 35px;
+  padding:  15px 10px;
+  background: #5ba58f;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  opacity: 0.65;
+  transition: all .3s;
+  letter-spacing: 7px;
+}
+
+form button:hover {
+  opacity: 1;
+  letter-spacing: 3px
+}
+

@@ -18,7 +18,6 @@
     .inputs{
         
          display: inline-block;
-         font-weight: bold;/*aplica o negrito na letra*/
          margin:1% auto;
          background: #fff;
          border: 0px;
@@ -37,8 +36,9 @@
         flex-wrap: wrap;
         margin: 1% AUTO;
         justify-content: space-between;
-        width: 91%;
+        width: 92%;
         font-weight: bold;
+        
     }
 
     .navbar,
@@ -259,10 +259,23 @@
     }
 }
  
-.botton{
-  width: 90%;
-  padding: 1%;
-  margin: 1% auto;
-  border: #3499DB 2px solid;
-  border-radius: 10px;
+.login-button{
+    width: 100%;
+    margin-top: 35px;
+    padding:  15px 10px;
+    background: #5ba58f;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.65;
+    transition: all .3s;
+    letter-spacing: 7px;
 }
+
+form button:hover {
+    opacity: 1;
+    letter-spacing: 3px
+}
+

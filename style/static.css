@@ -4,6 +4,32 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   }
+  
+  h1, h2{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #000;
+  }
+  
+  .passos p{
+    text-align: center;
+  }
+  h4{
+    font-weight: bold;
+  }
+
+  #org-passos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+  }
+  
+  .passos{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .row {
     margin-right:0px;
@@ -31,7 +57,7 @@
   
   
   header {
-    background-image: linear-gradient(rgba( 52, 222, 219, 0.8), rgba( 52, 153, 219, 0.8)), url("../images/001.jpg");
+    background-image: linear-gradient(rgba( 114, 178, 187, 0.3),rgba( 114, 178, 187, 0.3)), url("../images/001.jpeg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -87,29 +113,30 @@
   }
   
   #main-heading {
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 300;
     text-transform: uppercase;
     width: 80vw;
+    
   }
   
   #main-subheading {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 300;
   }
   
   @media (max-width:1024px) {
     #main-heading {
-      font-size: 5rem;
+      font-size: 4rem;
     }
     #main-subheading {
-      font-size: 4rem;
+      font-size: 2rem;
     }
   }
   
   @media (max-width:768px) {
     #main-subheading {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
   

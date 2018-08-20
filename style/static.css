@@ -21,8 +21,36 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 40px;
+    margin: 40pt;
   }
+
+  @media (max-width: 1024px) {
+    #org-passos {
+      height: 20vw;
+      font-size: 1.5rem;
+      display: flex;
+    }
+    #org-passos h3 {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 886px) {
+    #org-passos {
+      display: flex;
+      margin: 10%;
+      font-size: 1.4rem;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    #org-passos .glyphicon {
+      margin: 0;
+    }
+  }
+  
   
   .passos{
     width: 25vw;
@@ -46,7 +74,7 @@
   }
 
   .color-primary-0 {
-    color: #3499DB
+    color: rgb(255, 255, 255)
   }
  
   #lading{
@@ -107,7 +135,7 @@
   }
   
   .navbar-scrolled {
-    background-color: #3499DB !important;
+    background-color: #75a3a3 !important;
     transition: background-color 0.4s;
     box-shadow: 0 0 10px 2px;
   }
@@ -243,7 +271,7 @@
   
   #contact {
     color: white;
-    background-color: #3b8791;
+    background-color: #75a3a3;
     padding: 3rem 0;
     margin: 0px;
     /* display: flex ; */
@@ -262,18 +290,6 @@
     margin-bottom: 2rem;
   }
   
-  @media (max-width: 1024px) {
-    #contact p {
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #contact p {
-      font-size: 1.4rem;
-    }
-  }
-  
   #contact .glyphicon,
   #contact .fa {
     color: white;
@@ -283,15 +299,6 @@
   #contact .fa:hover {
     color: #C9C9C9;
     transition: all 0.4s;
-  }
-  
-
-  #form{
-    width: 100%;
-    height: 100%;
-    background: #edeff1;
-    margin: 0% auto;
-    padding: 3%;
   }
   
  .contatoindex{
@@ -312,33 +319,43 @@
   
   
   }
+  @media (max-width: 1024px) {
+    #contato {
+      padding: 0px;
 
-  #form input:focus{
-    border: 2px solid #5ba58f;
-  }
-
-  #form input[type="submit"]{
-    display: block;
-    background:  #3499DB;
-    width: 75%;
-    padding: 1%;
-    cursor: pointer;
-    color: #fff;
-    border: 0px;
-    margin: 3% auto;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    font-size: 17px;
-    transition: all 0.3s ease;
+    }
   }
   
-  #form input[type="submit"]:hover{
-    background: #5ba58f;
+  @media (max-width: 768px) {
+    #contato {
+      
+    }
   }
   
+  @media (max-width: 425px) {
+    #contato .glyphicon {
+      
+    }
+  }
   .txtFooter{
     size: 1.0vw;
     margin: 0px;
     padding: 0px;
   }
+
+  .botao-registrar {
+    width: 100%;
+    margin-top: 35px;
+    padding: 15px 10px;
+    background: #5ba58f;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    opacity: 0.65;
+    transition: all .3s;
+    letter-spacing: 7px;
+  }
+
+ 

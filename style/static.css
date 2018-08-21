@@ -385,19 +385,59 @@
     padding: 0px;
   }
 
-  .botao-registrar {
+
+  #form{
     width: 100%;
-    margin-top: 35px;
-    padding: 15px 10px;
-    background: #5ba58f;
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    outline: 0;
-    opacity: 0.65;
-    transition: all .3s;
-    letter-spacing: 7px;
+    height: 100%;
+    background: #edeff1;
+    margin: 0% auto;
+    padding: 3%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+  
+ .contatoindex{
+
+    display: block;
+    font-weight: bold;/*aplica o negrito na letra*/
+    margin:10px auto;
+    background: #fff;
+    border: 0px;
+    padding: 10px;
+    width: 75% ;
+    font-size: 16px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    
+    }
+
+
+  #form input:focus{
+    border: 2px solid #5ba58f;
   }
 
- 
+  #form input[type="submit"]{
+    display: block;
+    background:  #3499DB;
+    width: 75%;
+    padding: 1%;
+    cursor: pointer;
+    color: #fff;
+    border: 0px;
+    margin: 3% auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+  
+  #form input[type="submit"]:hover{
+    background: #5ba58f;
+  }
+  

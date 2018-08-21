@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="style/perfilAluno.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-  
+  <link rel="stylesheet" href="style/calendar.css">
+
   <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
-    
-    <script type="text/javascript">
+
+  <script type="text/javascript">
     jQuery(document).ready(function ($) {
       $(".scroll").click(function (event) {
         event.preventDefault();
@@ -34,6 +35,11 @@
       </a>
     </li>
 
+    <li> 
+        <a href="#videos" class="scroll">
+          <span class="glyphicon glyphicon-film"></span>
+        </a>
+    </li>
 
     <li>
       <a href="#eventos" class="scroll">
@@ -42,9 +48,15 @@
     </li>
 
     <li>
-      <a href="">
-        <span class="glyphicon glyphicon-list-alt"></span>
+      <a href="#agendarAula" class="scroll">
+        <span class="glyphicon glyphicon-plus-sign"></span>
       </a>
+    </li>
+
+    <li> 
+        <a href="#alulasRealizadas" class="scroll">
+          <span class="glyphicon glyphicon-ok"></span>
+        </a>
     </li>
 
     <li>
@@ -52,7 +64,7 @@
         <span class="glyphicon glyphicon-off"></span>
       </a>
     </li>
-
+    
   </ul>
 </nav>
 
@@ -103,7 +115,7 @@
                   <div class="col-sm-5 col-xs-6 title ">CPF: </div>
                   <div id="formacaoAluno" class="col-sm-7">123.456.789.10</div>
                   <div class="clearfix"></div>
-                  <div class="bot-border"></div>    
+                  <div class="bot-border"></div>
 
                   <div class="col-sm-5 col-xs-6 title ">Status:</div>
                   <div id="universidadeAluno" class="col-sm-7"> Primeira Habilitação</div>
@@ -130,6 +142,195 @@
     </div>
   </section>
 
+  <section id="videos">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 ">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4>Aulas em video</h4>
+              </div>
+              <div class="panel-body">
+  
+                <div class="box box-info">
+  
+                  <div class="box-body">
+                    <!-- *************************Começo LISTA EVENTOS*********** -->
+                    <div class="conteudoEventos">
+                      <table summary="Eric Genuis Performances" class="info">
+                        <tr>
+                          <td>Aula 1</td>
+                          <td>
+                            <span class="date">1/ABR</span>
+                          </td>
+                          <td>
+                            <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                          </td>
+                          <td>4:00h</td>
+                          <td>
+                              <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                          <td>Profº Adriano M. Silva
+                          </td>
+                          <td> <span class="glyphicon glyphicon-ok">
+                          </td>
+                        </tr>
+  
+                        <tr>
+                            <td>Aula 2</td>
+                            <td>
+                              <span class="date">2/ABR</span>
+                            </td>
+                            <td>
+                              <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                            </td>
+                            <td>4:00h</td>
+                            <td>
+                                <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                            <td>Profº Adriano M. Silva
+                            </td>
+                            <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                        </tr>
+    
+  
+                        <tr>
+                            <td>Aula 3</td>
+                            <td>
+                              <span class="date">3/ABR</span>
+                            </td>
+                            <td>
+                              <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                            </td>
+                            <td>4:00h</td>
+                            <td>
+                                <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                            <td>Profº Adriano M. Silva
+                            </td>
+                            <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Aula 4</td>
+                            <td>
+                              <span class="date">4/ABR</span>
+                            </td>
+                            <td>
+                              <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                            </td>
+                            <td>4:00h</td>
+                            <td>
+                                <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                            <td>Profº Adriano M. Silva
+                            </td>
+                            <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Aula 5</td>
+                            <td>
+                              <span class="date">5/ABR</span>
+                            </td>
+                            <td>
+                              <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                            </td>
+                            <td>4:00h</td>
+                            <td>
+                                <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                            <td>Profº Adriano M. Silva
+                            </td>
+                            <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                          </tr>
+    
+                          <tr>
+                              <td>Aula 6</td>
+                              <td>
+                                <span class="date">6/ABR</span>
+                              </td>
+                              <td>
+                                <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                              </td>
+                              <td>4:00h</td>
+                              <td>
+                                  <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                              <td>Profº Adriano M. Silva
+                              </td>
+                              <td> <span class="glyphicon glyphicon-ok">
+                              </td>
+                          </tr>
+      
+    
+                          <tr>
+                              <td>Aula 7</td>
+                              <td>
+                                <span class="date">7/ABR</span>
+                              </td>
+                              <td>
+                                <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                              </td>
+                              <td>4:00h</td>
+                              <td>
+                                  <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                              <td>Profº Adriano M. Silva
+                              </td>
+                              <td> <span class="glyphicon glyphicon-ok">
+                              </td>
+                          </tr>
+  
+                          <tr>
+                              <td>Aula 8</td>
+                              <td>
+                                <span class="date">8/ABR</span>
+                              </td>
+                              <td>
+                                <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                              </td>
+                              <td>4:00h</td>
+                              <td>
+                                  <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                              <td>Profº Adriano M. Silva
+                              </td>
+                              <td> <span class="glyphicon glyphicon-ok">
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td>Aula 9</td>
+                              <td>
+                                <span class="date">9/ABR</span>
+                              </td>
+                              <td>
+                                <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                              </td>
+                              <td>4:00h</td>
+                              <td>
+                                  <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                              <td>Profº Adriano M. Silva
+                              </td>
+                              <td> <span class="glyphicon glyphicon-ok">
+                              </td>
+                          </tr>
+    
+    
+
+
+                      </table>
+  
+  
+  
+                    </div>
+                    <!-- ****************FIM LISTA EVENTOS******************** -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+    </section>
+
   <section id="eventos">
 
     <div class="container">
@@ -137,7 +338,7 @@
         <div class="col-md-7 ">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>Aulas agendadas</h4>
+              <h4>Aulas Práticas Agendadas</h4>
             </div>
             <div class="panel-body">
 
@@ -156,15 +357,13 @@
                         <td>
                           <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
                         </td>
-                        <td>15:00 - 17:00</td>
+                        <td>09:00 - 11:00</td>
                         <td>
-                          <img src="http://www.lemieux-design.net/img/map-pin.png" alt="Location" />
-                        </td>
-                        <td>Faculdade de Tecnologia de Barueri
-                          <br />
-                          <a href="https://www.google.com.br/maps/place/Faculdade+de+Tecnologia+de+Barueri/@-23.5083266,-46.8646239,15z/data=!4m2!3m1!1s0x0:0x1c28540aac26cba0?sa=X&ved=0ahUKEwik7NDgtrPbAhWETZAKHSecBZ8Q_BIItAEwCw">Get Directions &raquo;</a>
+                            <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                        <td>Marcelo Ferreira Santos
                         </td>
                       </tr>
+
                       <tr>
                         <td>QUI</td>
                         <td>
@@ -173,13 +372,10 @@
                         <td>
                           <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
                         </td>
-                        <td>14:00 - 18:30</td>
+                        <td>10:00 - 11:30</td>
                         <td>
-                          <img src="http://www.lemieux-design.net/img/map-pin.png" alt="Location" />
-                        </td>
-                        <td>Faculdade de Tecnologia de Barueri
-                          <br />
-                          <a href="https://www.google.com.br/maps/place/Faculdade+de+Tecnologia+de+Barueri/@-23.5083266,-46.8646239,15z/data=!4m2!3m1!1s0x0:0x1c28540aac26cba0?sa=X&ved=0ahUKEwik7NDgtrPbAhWETZAKHSecBZ8Q_BIItAEwCw">Get Directions &raquo;</a>
+                            <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                        <td>Marcelo Ferreira Santos
                         </td>
 
                       </tr>
@@ -191,13 +387,11 @@
                         <td>
                           <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
                         </td>
-                        <td>14:00 - 20:00 </td>
+                        <td>10:00 - 12:00 </td>
                         <td>
-                          <img src="http://www.lemieux-design.net/img/map-pin.png" alt="Location" />
+                          <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />
                         </td>
-                        <td>Faculdade de Tecnologia de Barueri
-                          <br />
-                          <a href="https://www.google.com.br/maps/place/Faculdade+de+Tecnologia+de+Barueri/@-23.5083266,-46.8646239,15z/data=!4m2!3m1!1s0x0:0x1c28540aac26cba0?sa=X&ved=0ahUKEwik7NDgtrPbAhWETZAKHSecBZ8Q_BIItAEwCw">Get Directions &raquo;</a>
+                        <td>Marcelo Ferreira Santos
                         </td>
                       </tr>
                     </table>
@@ -214,6 +408,186 @@
 
   </section>
 
+  <section id="agendarAula">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 ">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>Agendar Aula Prática</h4>
+              </div>
+                <div class="panel-body">
+                  <div class="box box-info">
+                    <div class="box-body">
+
+
+                  <div class="calendar" id="calendar-app">
+                    <div class="calendar--day-view" id="day-view">
+                      <span class="day-view-exit" id="day-view-exit">&times;</span>
+                      <span class="day-view-date" id="day-view-date">MAY 29 2016</span>
+                      <div class="day-view-content">
+                        <div class="day-highlight">
+                          Você
+                          <span class="day-events" id="day-events">had no events for today</span>. &nbsp;
+                          <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();"
+                            class="day-events-link" id="add-event" data-date>Agendar aula?</span>
+                        </div>
+                          <div class="day-add-event" id="add-day-event-box" data-active="false">
+                            <div class="row">
+                              <div class="half">
+                                <label class="add-event-label">
+                                  Nome do Professor
+                                  <input type="text" class="add-event-edit add-event-edit--long" placeholder="Selecione o Professor" id="input-add-event-name">
+                                    </label>
+                                      </div>
+                            <div class="qtr">
+                              <label class="add-event-label">
+                                Inicio
+                                <input type="text" class="add-event-edit" placeholder="8:15" id="input-add-event-start-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12"
+                                  data-format="datetime">
+                                <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-start-ampm" data-options="a,p,am,pm">
+                              </label>
+                            </div>
+                            <div class="qtr">
+                              <label class="add-event-label">
+                                Fim
+                                <input type="text" class="add-event-edit" placeholder="9" id="input-add-event-end-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12"
+                                  data-format="datetime">
+                                <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-end-ampm" data-options="a,p,am,pm">
+                              </label>
+                            </div>
+                            <div class="half">
+                              <a onkeyup="if(event.keyCode != 13) return; this.click();" tabindex="0" id="add-event-save" class="event-btn--save event-btn">Salvar</a>
+                              <a tabindex="0" id="add-event-cancel" class="event-btn--cancel event-btn">Cancelar</a>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div id="day-events-list" class="day-events-list">
+
+                        </div>
+                        <div class="day-inspiration-quote" id="inspirational-quote">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="calendar--view" id="calendar-view">
+                      <div class="cview__month">
+                        <span class="cview__month-last" id="calendar-month-last">Abr</span>
+                        <span class="cview__month-current" id="calendar-month">Mai</span>
+                        <span class="cview__month-next" id="calendar-month-next">Jun</span>
+                      </div>
+                      <div class="cview__header">Dom</div>
+                      <div class="cview__header">Seg</div>
+                      <div class="cview__header">Ter</div>
+                      <div class="cview__header">Qua</div>
+                      <div class="cview__header">Qui</div>
+                      <div class="cview__header">Sex</div>
+                      <div class="cview__header">Sab</div>
+                      <div class="calendar--view" id="dates">
+                      </div>
+                    </div>
+                    <div class="footer">
+                      <span>
+                        <span id="footer-date" class="footer__link">Hoje é dia</span>
+                      </span>
+                    </div>
+                  </div>
+                  <script src="script/calendar.js"></script>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+  <section id="alulasRealizadas" >
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 ">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4>Aulas Praticas Realizadas</h4>
+              </div>
+              <div class="panel-body">
+  
+                <div class="box box-info">
+  
+                  <div class="box-body">
+                    <!-- *************************Começo LISTA EVENTOS*********** -->
+                    <div class="conteudoEventos">
+                      <table summary="Eric Genuis Performances" class="info">
+                        <caption>JUL</caption>
+                        <tr>
+                          <td>SEG</td>
+                          <td>
+                            <span class="date">30/JUL</span>
+                          </td>
+                          <td>
+                            <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                          </td>
+                          <td>09:00 - 11:00</td>
+                          <td>
+                              <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                          <td>Marcelo Ferreira Santos
+                          </td>
+                          <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                        </tr>
+  
+                        <tr>
+                          <td>QUI</td>
+                          <td>
+                            <span class="date">05/JUL </span>
+                          </td>
+                          <td>
+                            <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                          </td>
+                          <td>10:00 - 11:30</td>
+                          <td>
+                              <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />                        </td>
+                          <td>Marcelo Ferreira Santos
+                             </td>
+                             <td> <span class="glyphicon glyphicon-ok">
+                              </td>
+  
+                        </tr>
+                        <tr>
+                          <td>SEX</td>
+                          <td>
+                            <span class="date">01/JUL</span>
+                          </td>
+                          <td>
+                            <img src="http://www.lemieux-design.net/img/clock.png" alt="Time" />
+                          </td>
+                          <td>10:00 - 12:00 </td>
+                          <td>
+                            <img src="images/user-group-512.png" width="20px" height="20px" alt="instrutor" />
+                          </td>
+                          <td>Marcelo Ferreira Santos
+                          </td>
+                          <td> <span class="glyphicon glyphicon-ok">
+                            </td>
+                        </tr>
+                      </table>
+  
+  
+  
+                    </div>
+                    <!-- ****************FIM LISTA EVENTOS******************** -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+    </section>
+  
+  
 </body>
 
 </html>

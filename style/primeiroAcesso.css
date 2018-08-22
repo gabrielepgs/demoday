@@ -43,8 +43,7 @@
 
     .navbar,
     .navbar-default {
-      background-color:  #75a3a3
-      ;
+      background-color:  rgba(0, 0, 0, 0.8)  ;
       box-shadow: 0 0 10px 2px;
       border: none !important;
       padding: 1rem 1rem !important;
@@ -108,13 +107,13 @@
     }
     
     .navbar-default .navbar-toggle:hover {
-      background-color:  #75a3a3
+      background-color:  black
       !important;
       transition: all 0.4s;
     }
     
     .navbar-default .navbar-toggle:focus {
-      background-color:  #75a3a3
+      background-color:  black
       !important;
     }
     
@@ -263,7 +262,7 @@
     width: 100%;
     margin-top: 35px;
     padding:  15px 10px;
-    background: #5ba58f;
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
     text-transform: uppercase;
     border: none;

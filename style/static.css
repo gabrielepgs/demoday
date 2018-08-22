@@ -178,7 +178,7 @@
   }
   
   .navbar-scrolled {
-    background-color: #75a3a3 !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
     transition: background-color 0.4s;
     box-shadow: 0 0 10px 2px;
   }
@@ -212,12 +212,12 @@
   }
   
   .navbar-default .navbar-toggle:hover {
-    background-color: #3499DB !important;
+    background-color:rgba(0, 0, 0, 0.8)!important;
     transition: all 0.4s;
   }
   
   .navbar-default .navbar-toggle:focus {
-    background-color: #3499DB !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
   }
   
   .navbar-default .navbar-toggle .icon-bar {
@@ -254,7 +254,7 @@
   .hero-text-box .btn-default:focus{
     color: white;
     border-color: white;
-    background-color: #3499DB;
+    background-color: rgba(0, 0, 0, 0.8);
     transition: all 0.4s;
   }
   
@@ -314,7 +314,7 @@
   
   #contact {
     color: white;
-    background-color: #75a3a3;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 3rem 0;
     margin: 0px;
     /* display: flex ; */
@@ -419,12 +419,12 @@
 
 
   #form input:focus{
-    border: 2px solid #5ba58f;
+    border: 2px solid gray;
   }
 
   #form input[type="submit"]{
     display: block;
-    background:  #3499DB;
+    background-color: rgba(0, 0, 0, 0.8);
     width: 75%;
     padding: 1%;
     cursor: pointer;
@@ -439,6 +439,6 @@
   }
   
   #form input[type="submit"]:hover{
-    background: #5ba58f;
+    background: black;
   }
   

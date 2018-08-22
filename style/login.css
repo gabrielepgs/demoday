@@ -51,7 +51,7 @@
   .login__title {
     margin-bottom: 2em;
     font-size: 1.2em;
-    color:  #5ba58f;
+    color:  black;
   }
   
   .login__title--grey {
@@ -81,19 +81,19 @@
   }
   
   input[type=text]:hover, input[type=password]:hover {
-    border:1px dashed  #5ba58f;
+    border:1px dashed  black;
   }
   
   input[type=text]:focus, input[type=password]:focus {
-    border:1px dashed  #5ba58f;
-    color: #5ba58f;
+    border:1px dashed  black;
+    color: black;
   }
 
   .login-button{
     width: 100%;
       margin-top: 35px;
       padding:  15px 10px;
-      background: #5ba58f;
+      background: rgba(0, 0, 0, 0.8);
       color: #fff;
       text-transform: uppercase;
       border: none;
@@ -111,7 +111,7 @@
   }
 
   #contact {
-    color: #72b2bb;
+    color: black;
     background-color: white;
     padding: 3rem 0;
     font-size:1.6rem;
@@ -139,7 +139,7 @@
     width: 100%;
     margin-top: 35px;
     padding: 15px 10px;
-    background: #5ba58f;
+    background: black;
     color: #fff;
     text-transform: uppercase;
     border: none;

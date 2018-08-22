@@ -13,7 +13,7 @@ h1 {
   font-size: 30px;
 }
 nav#sidebar {
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   width: 100px;
   height: 100%;
@@ -27,7 +27,7 @@ ul.dots a {
   margin-top: 10vh;
   text-decoration: none;
   font-size: 20px;
-  color: #34495e;
+  color: #75a3a3;
 }
 ul.dots a:hover {
   text-decoration: none;
@@ -76,11 +76,11 @@ code {
 body{
   
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0d4e3+0,88bacf+100;Grey+3D+%233 */
-background: #b0d4e3; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #b0d4e3 0%, #88bacf 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #b0d4e3 0%,#88bacf 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #b0d4e3 0%,#88bacf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background: #d6d6c2; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d6d6c2 0%, #d6d6c2	100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d6d6c2 0%,#d6d6c2	100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d6d6c2	0%,#d6d6c2	100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6c2', endColorstr='#d6d6c2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
 }
@@ -165,7 +165,7 @@ table{
 .table.info th, table.info td { padding: 12px; padding-right: 70px; vertical-align: center; color: rgb(68,68,68); }
     .table.info caption { background-color: rgb(90,85,90); font-weight: bold; color: rgb(255,255,255); padding-top: .7em; padding-bottom: .7em; letter-spacing: .085em;}
     .table.info th { text-align: left; }
-.table.info td { background-color: rgb(170,200,209);
+.table.info td { background-color: rgb(27, 50, 58);
   
 }
     .date { display: inline-block; background-color: rgb(68,68,68); color: #fff; padding: 10px; 
